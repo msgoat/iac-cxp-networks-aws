@@ -1,0 +1,9 @@
+region_name = "eu-west-1"
+organization_name = "msg systems"
+department_name = "Automotive Technology"
+project_name = "CXP"
+stage = "dev"
+network_name = "cxpnatgw"
+network_cidr  = "10.3.0.0/16"
+inbound_traffic_cidrs = [ "0.0.0.0/0"]
+nat_strategy = "NAT_GATEWAY"
