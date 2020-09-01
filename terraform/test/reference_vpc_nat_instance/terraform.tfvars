@@ -7,3 +7,5 @@ network_name = "cxpnatinst"
 network_cidr  = "10.4.0.0/16"
 inbound_traffic_cidrs = [ "0.0.0.0/0"]
 nat_strategy = "NAT_INSTANCE"
+number_of_bastion_instances = 1
+bastion_key_name = "key-eu-west-1-bastion-miket92"

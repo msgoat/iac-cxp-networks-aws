@@ -21,6 +21,7 @@ locals {
   public_web_subnet_cidrs = slice(local.subnet_cidrs, 0, 3)
   private_app_subnet_cidrs = slice(local.subnet_cidrs, 3, 6)
   private_data_subnet_cidrs = slice(local.subnet_cidrs, 6, 9)
+  bastion_enabled = var.number_of_bastion_instances > 0 ? true : false
 }
 
 data "aws_region" "current" {
