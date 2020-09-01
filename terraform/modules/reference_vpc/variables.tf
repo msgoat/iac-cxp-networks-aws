@@ -62,3 +62,4 @@ variable "bastion_inbound_traffic_cidrs" {
   default = []
 }
 
+

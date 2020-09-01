@@ -31,4 +31,6 @@ module "reference_vpc" {
   network_cidr = var.network_cidr
   inbound_traffic_cidrs = var.inbound_traffic_cidrs
   nat_strategy = var.nat_strategy
+  number_of_bastion_instances = var.number_of_bastion_instances
+  bastion_key_name = var.bastion_key_name
 }

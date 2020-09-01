@@ -34,3 +34,12 @@ variable "inbound_traffic_cidrs" {
 variable "nat_strategy" {
   description = "NAT strategy to be applied to VPC. Possible values are: NAT_GATEWAY or NAT_INSTANCE"
 }
+
+variable "number_of_bastion_instances" {
+  description = "Number of bastion EC2 instances that must be always available; default: 1"
+  type = number
+}
+
+variable "bastion_key_name" {
+  description = "Name of SSH key pair name to used for the bastion instances"
+}
