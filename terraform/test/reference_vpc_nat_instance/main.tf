@@ -6,7 +6,7 @@
 
 provider "aws" {
   region  = var.region_name
-  version = "~> 2.7"
+  version = "~> 3.0"
 }
 
 # Local values used in this module
